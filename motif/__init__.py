@@ -1,9 +1,9 @@
 """Top level imports.
 """
-from . import contour_extractors
-from . import feature_extractors
-from . import contour_classifiers
-from . import contour_decoders
+from motif import contour_extractors
+from motif import feature_extractors
+from motif import contour_classifiers
+from motif import contour_decoders
 
 from .core import CONTOUR_EXTRACTOR_REGISTRY
 from .core import FEATURE_EXTRACTOR_REGISTRY
